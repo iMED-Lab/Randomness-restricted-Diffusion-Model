@@ -1,6 +1,6 @@
 # R²diff: Randomness-restricted Diffusion Model for Ocular Surface Structure Segmentation
 
-A General Method for Ocular Surface Segmentation Based on Diffusion Models.
+A General Method for Ocular Surface Segmentation Based on Diffusion Models. We will update the code in the near future.
 
 ### Requirements
 
