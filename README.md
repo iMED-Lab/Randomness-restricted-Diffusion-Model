@@ -19,21 +19,20 @@ A General Method for Ocular Surface Segmentation Based on Diffusion Models. We w
    - `conda activate rrdm_env`
 
 ## Training&Sampling
+1. If you want to train a new model, please run the following code:
 ```
 python scripts/segmentation_train.py
 ```
-After training, you can generate a mask like so:
+2. After training, you can generate a mask like so:
 ```
 python scripts/segmentation_sample.py
 ```
 
-If you want to train on your own dataset:
-
+3. If you want to train on your own dataset:
 	- Refer to Randomness-restricted-Diffusion-Model/guided_diffusion/dataset.py. You only need to modify the path and ensure that different classes in the labels are assigned different pixel values (0-255).
 
 ## Pre-trained weights 
-Here, the pre-trained weights from ORIGA and OCTA500 are provided:
-
+1. Here, the pre-trained weights from ORIGA and OCTA500 are provided:
 	- www.xxxxx
 ### License
 MIT License
