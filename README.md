@@ -21,6 +21,7 @@ A General Method for Ocular Surface Segmentation Based on Diffusion Models. We w
 
 ## Training&Sampling
 If you want to train on your own dataset:
+Please refer to the code in Randomness-restricted-Diffusion-Model/guided_diffusion/dataset.py. Generally, you only need to modify the dataset path and ensure that different classes in the labels are assigned different pixel values (0-255).
 ```
 python scripts/segmentation_train.py
 ```
