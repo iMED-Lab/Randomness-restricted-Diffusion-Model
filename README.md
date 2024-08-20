@@ -32,7 +32,7 @@ python scripts/segmentation_sample.py
 	- Refer to Randomness-restricted-Diffusion-Model/guided_diffusion/dataset.py. You only need to modify the path and ensure that different classes in the labels are assigned different pixel values (0-255).
 
 ## Pre-trained weights 
-1. Here, the pre-trained weights from ORIGA and OCTA500 are provided:
+1. Here, the model weights obtained from training on public datasets are provided:
 	- www.xxxxx
 ### License
 MIT License
