@@ -33,6 +33,8 @@ python scripts/segmentation_sample.py
 
 ## Pre-trained weights 
 1. Here, the model weights obtained from training on public datasets are provided:
-	- www.xxxxx
+	- link：https://pan.baidu.com/s/1h_cxECqzqkfN5O7M5_aVBA 
+	- password：imed 
+
 ### License
 MIT License
