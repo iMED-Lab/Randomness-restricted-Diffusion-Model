@@ -29,7 +29,7 @@ python scripts/segmentation_sample.py
 ```
 
 3. If you want to train on your own dataset:
-	- Refer to Randomness-restricted-Diffusion-Model/guided_diffusion/dataset.py. You only need to modify the path and ensure that different classes in the labels are assigned different pixel values (0-255).
+	- Refer to guided_diffusion/dataset.py. You only need to modify the path and ensure that different classes in the labels are assigned different pixel values (0-255).
 
 ## Pre-trained weights 
 1. Here, the model weights obtained from training on public datasets are provided:
